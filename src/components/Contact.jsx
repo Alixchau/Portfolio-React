@@ -2,13 +2,12 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#112D4E] flex justify-center items-center p-4'>
+    <div name='contact' className='w-full h-screen bg-[#112D4E] flex justify-center items-center p-7'>
       <form action='https://getform.io/f/02d14b7c-a009-43b7-802d-f6f4acc61a14' method='POST' className='flex flex-col max-w-[600px] w-full'>
-        <div className='pb-8'>
+        <div>
           <p className='text-3xl font-bold inline border-b-4 border-r-4 rounded border-[#3F72AF] text-[#DBE2EF] px-2 py-1'>Contact</p>
-          <p className='text-[#DBE2EF] py-4'>Submit the form below or message me in Linkedin - </p>
+          <p className='text-[#DBE2EF] py-4'>Submit the form below or shoot me a message in Linkedin - </p>
         </div>
-
           <input className='my-4 p-2 bg-[#ccd6f6] text-[#112D4E] rounded' type='text' placeholder='Name' name='name' />
           <input className='my-4 p-2 bg-[#ccd6f6] text-[#112D4E] rounded' type='email' placeholder='Email' name='email' />
           <textarea className='my-4 p-2 bg-[#ccd6f6] text-[#112D4E] rounded' type='text' placeholder='Message' name='message' rows='10' />
