@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
+import {HiOutlineMail} from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
 import logo from '../assets/logo.png'
 
 const Navbar = () => {
@@ -26,7 +28,7 @@ const Navbar = () => {
         { moblieMenu ? <FaTimes /> :<FaBars />}
       </div>
       {/* Mobile menu */}
-        <ul className={ moblieMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#112D4E] flex flex-col justify-center items-center': 'hidden'}>
+        <ul className={ moblieMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#3F72AF] flex flex-col justify-center items-center': 'hidden'}>
           <li className='py-6 text-4xl'>Home</li>
           <li className='py-6 text-4xl'>About</li>
           <li className='py-6 text-4xl'>Skills</li>
@@ -35,6 +37,14 @@ const Navbar = () => {
         </ul>
 
       {/* Social icons */}
+      <div className='fixed flex flex-col top-[35%] left-0'>
+        <ul>
+        <li className='w-[30px] h-[30px] flex justify-between flex-col'>
+          <a className='flex justify-between items-center w-full text-[#F9F7F7]' href='/'>Linkedin</a>
+
+        </li>
+        </ul>
+      </div>
     </div>
   )
 }
