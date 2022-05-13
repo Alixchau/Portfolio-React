@@ -16,11 +16,11 @@ const Navbar = () => {
       <div>
       {/* width more than medium size will be displayed flex, otherwise hidden  */}
         <ul  className="hidden md:flex">
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li className='hover:bg-[#3F72AF] duration-75 rounded'>Home</li>
+          <li className='hover:bg-[#3F72AF] duration-75 rounded'>About</li>
+          <li className='hover:bg-[#3F72AF] duration-75 rounded'>Skills</li>
+          <li className='hover:bg-[#3F72AF] duration-75 rounded'>Projects</li>
+          <li className='hover:bg-[#3F72AF] duration-75 rounded'>Contact</li>
         </ul>
       </div>
       {/* Hamburger */}
@@ -29,11 +29,11 @@ const Navbar = () => {
       </div>
       {/* Mobile menu */}
         <ul className={ moblieMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#3F72AF] flex flex-col justify-center items-center': 'hidden'}>
-          <li className='py-6 text-4xl'>Home</li>
-          <li className='py-6 text-4xl'>About</li>
-          <li className='py-6 text-4xl'>Skills</li>
-          <li className='py-6 text-4xl'>Projects</li>
-          <li className='py-6 text-4xl'>Contact</li>
+          <li className='py-6 text-3xl'>Home</li>
+          <li className='py-6 text-3xl'>About</li>
+          <li className='py-6 text-3xl'>Skills</li>
+          <li className='py-6 text-3xl'>Projects</li>
+          <li className='py-6 text-3xl'>Contact</li>
         </ul>
 
       {/* Social icons */}
