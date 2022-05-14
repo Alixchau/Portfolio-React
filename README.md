@@ -1,6 +1,6 @@
 # Personal Portfolio React App
 
-### [Live Site] ()
+### [Live Site] (https://alixchau.github.io/Portfolio-React/)
 
 <img src="https://i.ibb.co/BrP2bcZ/Screenshot-2022-05-13-233440.png" alt="Screenshot-2022-05-13-233440" border="0">
 <img src="https://i.ibb.co/PgHB271/Screenshot-2022-05-13-233505.png" alt="Screenshot-2022-05-13-233505" border="0">
