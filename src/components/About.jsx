@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div name='about' className='w-full h-screen bg-[#112D4E]'>
     {/* Container */}
-      <div className='max-w-1000px mx-auto px-10 flex flex-col justify-center h-full md:ml-[18vw]'>
+      <div className='max-w-[1000px] mx-auto px-10 flex flex-col justify-center h-full md:ml-[18vw]'>
         <div>
           <p className='text-3xl font-bold inline border-b-4 border-r-4 rounded border-[#3F72AF] text-[#DBE2EF] px-2 py-1'>About Me</p>
           <p className='text-[#F9F7F7] pt-4 max-w-[700px] my-4'>I love building interesting and challenging applications and it makes me happy everytime a bug is fixed, a section is completed and eventually the application is successfully built.
