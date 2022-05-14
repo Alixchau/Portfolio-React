@@ -52,7 +52,7 @@ const Projects = () => {
             <img src={Reciplore} alt='project picture' className='rounded object-cover' />
             </div>
             <p className='text-center text-[#F9F7F7] font-bold py-4'>Reciplore</p>
-            <p className='w-full pb-2 px-4 text-[#F9F7F7] text-center'>Reciplore is a responsive website for explore recipes and wine pairing. Data gets from spoonacular API. </p>
+            <p className='w-full pb-2 px-4 text-[#F9F7F7] text-center'>Reciplore is a responsive website for exploring recipes and wine pairing. Data gets from spoonacular API. </p>
             <p className='text-center text-[#F9F7F7] font-bold py-4'>Stack</p>       
               <div className='flex justify-center'>
                 <img className='w-7 mx-auto my-2' src={ReactImg} alt="React icon" />

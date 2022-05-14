@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
 import logo from '../assets/logo.png'
 import { Link } from 'react-scroll'
 
@@ -50,7 +49,7 @@ const Navbar = () => {
         {moblieMenu ? <FaTimes /> : <FaBars />}
       </div>
       {/* Mobile menu */}
-      <ul className={moblieMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#3F72AF] flex flex-col justify-center items-center' : 'hidden'}>
+      <ul className={moblieMenu ? 'absolute top-0 left-0 transition-all duration-500 ease-in w-full h-screen bg-[#3F72AF] flex flex-col justify-center items-center' : 'hidden'}>
         <li className='py-6 text-3xl'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
@@ -79,11 +78,25 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className='fixed flex flex-col top-[35%] left-0'>
+      <div className='hidden md:flex fixed flex-col top-[40%] left-10'>
         <ul>
-          <li className='w-[30px] h-[30px] flex justify-between flex-col'>
-            <a className='flex justify-between items-center w-full text-[#F9F7F7]' href='/'>Linkedin</a>
-
+          <li className='w-[40px] h-[40px] flex items-center p-1 bg-[#F9F7F7] rounded-lg hover:scale-110 duration-500 my-4'>
+            <a className='flex items-center w-full text-[#3F72AF]'
+              href='https://www.linkedin.com/in/shuk-han-chau-835057132' target='_blank'>
+              <FaLinkedin size={100} />
+            </a>
+          </li>
+          <li className='w-[40px] h-[40px] flex items-center p-1 bg-[#F9F7F7] rounded-lg hover:scale-110 duration-500 my-4'>
+            <a className='flex items-center w-full text-[#19202b]'
+              href='https://github.com/Alixchau' target='_blank'>
+              <FaGithub size={100} />
+            </a>
+          </li>
+          <li className='w-[40px] h-[40px] flex items-center p-1 bg-[#F9F7F7] rounded-lg hover:scale-110 duration-500 my-4'>
+            <a className='flex items-center w-full text-[#c0412b]'
+              href='mailto:alixchau831@gmail.com' target='_blank'>
+              <HiOutlineMail size={100} />
+            </a>
           </li>
         </ul>
       </div>
