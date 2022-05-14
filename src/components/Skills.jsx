@@ -12,9 +12,9 @@ import C from '../assets/c.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full md:h-screen bg-[#112D4E]'>
+    <div name='skills' className='w-full md:h-screen bg-[#112D4E] pt-60 md:pt-3'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-10 flex flex-col justify-center h-full md:ml-[18vw]'>
+      <div className='max-w-[1000px] mx-auto px-10 flex flex-col justify-center h-full md:ml-[15vw]'>
         <div>
           <p className='text-3xl font-bold inline border-b-4 border-r-4 rounded border-[#3F72AF] text-[#DBE2EF] px-2 py-1'>Skills</p>
           <p className='text-[#F9F7F7] pt-4 my-4'>These are the technologies that I've worked with</p>
