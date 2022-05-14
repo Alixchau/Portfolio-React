@@ -10,7 +10,7 @@ import Mysql from '../assets/mysql.png'
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full md:h-screen bg-[#112D4E] pt-20 md:pt-3'>
+    <div name='projects' className='w-full md:h-screen bg-[#112D4E] py-20 md:py-10'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-10 flex flex-col justify-center h-full md:ml-[15vw]'>
         <div>
