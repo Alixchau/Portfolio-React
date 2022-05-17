@@ -49,7 +49,7 @@ const Navbar = () => {
         {moblieMenu ? <FaTimes /> : <FaBars />}
       </div>
       {/* Mobile menu */}
-      <ul className={moblieMenu ? 'absolute top-0 left-0 transition-all duration-500 ease-in w-full h-screen bg-[#3F72AF] flex flex-col justify-center items-center' : 'hidden'}>
+      <ul className={moblieMenu ? 'absolute top-0 left-0 w-full h-screen bg-[#3F72AF] flex flex-col justify-center items-center' : 'hidden'}>
         <li className='py-6 text-3xl'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
