@@ -1,6 +1,7 @@
 import React from 'react'
 import Beans from '../assets/beans.png'
 import Reciplore from '../assets/reciplore.png'
+import HOMEnVentory from '../assets/HOMEnVentory.png'
 import ReactImg from '../assets/react.png'
 import HTML from '../assets/html.png'
 import CSS from '../assets/css.png'
@@ -48,8 +49,8 @@ const Projects = () => {
 
           {/* Grid item */}
           <div className='rounded shadow-md shadow-[#3F72AF]'>
-            <div className=' h-[200px] md:mb-4'>
-              <img src={Reciplore} alt='project picture' className='rounded object-cover' />
+            <div className='h-[200px] md:mb-4'>
+              <img src={HOMEnVentory} alt='project picture' className='rounded object-cover overflow-hidden' />
             </div>
             <p className='text-center text-[#F9F7F7] font-bold pb-2 md:py-4'>HOMEnVentory</p>
             <p className='w-full pb-2 px-4 text-[#F9F7F7] text-center'>HOMEnVentory is a full stack web application for users to manage their inventory, admin users to manage user accounts. </p>
