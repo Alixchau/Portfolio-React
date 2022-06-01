@@ -3,6 +3,7 @@ import HTML from '../assets/html.png'
 import CSS from '../assets/css.png'
 import JavaScript from '../assets/javascript.png'
 import ReactImg from '../assets/react.png'
+import Redux from '../assets/redux.png'
 import Node from '../assets/node.png'
 import Tailwind from '../assets/tailwind.png'
 import Mongo from '../assets/mongo.png'
@@ -35,6 +36,10 @@ const Skills = () => {
           <div className='shadow-md bg-[#F9F7F7] shadow-[#3F72AF] hover:scale-110 duration-500 rounded-md'>
             <img className='w-[4rem] mx-auto my-4' src={ReactImg} alt="React icon" />
             <p className='my-4'>React</p>
+          </div>
+          <div className='shadow-md bg-[#F9F7F7] shadow-[#3F72AF] hover:scale-110 duration-500 rounded-md'>
+            <img className='w-[4rem] mx-auto my-4' src={Redux} alt="React icon" />
+            <p className='my-4'>Redux</p>
           </div>
           <div className='shadow-md bg-[#F9F7F7] shadow-[#3F72AF] hover:scale-110 duration-500 rounded-md'>
             <img className='w-[4rem] mx-auto my-4' src={Node} alt="Node icon" />
