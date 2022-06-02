@@ -11,8 +11,8 @@ const Home = () => {
         <p className='text-[#F9F7F7] pt-3'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#DBE2EF] py-2'>Alix Chau</h1>
         <h2 className='text-3xl sm:text-5xl font-bold text-[#a2b4d6]'>I'm a Web Developer.</h2>
-        <p className='text-[#F9F7F7] py-4 max-w-[700px]'>I'm passionate about building exceptional applications, love investigating and solving problems and excited about finding solution that fits the most. </p>
-        <p className='text-[#F9F7F7]'>I’m self-motivated and a quick learner, a team player but also competent to work individually. With diligent and humble attitude, I constantly improve my skills to contribute more to my team/projects.</p>
+        <p className='text-[#F9F7F7] py-4 max-w-[700px]'>I'm passionate about building exceptional applications, excited about solving problems and finding solution that fits the most. </p>
+        <p className='text-[#F9F7F7]'>I'm quietly confident, naturally curious and a quick learner, a team player but also competent to work individually.</p>
         <div className='flex'>
           <div>
             <button className='text-[#e2dfdf] border-2 rounded px-4 py-3 my-7 mr-3 hover:bg-[#3F72AF] duration-75 hover:border-[#3F72AF]'><Link to="projects" smooth={true} duration={500}>
