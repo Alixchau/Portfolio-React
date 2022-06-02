@@ -10,7 +10,7 @@ const About = () => {
           <p className='text-[#F9F7F7] pt-4 max-w-[700px] my-4'>I love building interesting and challenging applications and it makes me happy every time a bug is fixed, a section is completed and eventually the application is successfully built.
           </p>
           <p className='text-[#F9F7F7] pt-4 max-w-[700px] my-4'>
-          I used to work in banking and insurance industry, these experiences improve my skills to communicate with customers and IT teams, analysis and solve problems, also proved I'm a fast learner and my integrity, diligent and relialbe personality.   
+          I used to work in banking and insurance industry, these experiences improve my skills to communicate with customers and IT teams, analysis and solve problems, also proved I'm a fast learner and my integrity, diligent and reliable personality.   
           </p>
           <p className='text-[#F9F7F7] pt-4 max-w-[700px] my-4'>
           In my free time, I love exploring tasty foods, travelling and ginger cats (they're super cute)! 
