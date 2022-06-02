@@ -44,6 +44,11 @@ const Projects = () => {
             <div className='pt-8 text-center'>
               <a href='https://e-commerce-mern-deploy.herokuapp.com/' target='_blank'>
                 <button className='text-[#e2dfdf] border-2 rounded px-4 py-2 mx-2 mb-3 hover:bg-[#3F72AF] duration-75 hover:border-[#3F72AF]'>
+                  Website
+                </button>
+              </a>
+              <a href='https://youtu.be/i6pFppFDyNE' target='_blank'>
+                <button className='text-[#e2dfdf] border-2 rounded px-4 py-2 mx-2 mb-3 hover:bg-[#3F72AF] duration-75 hover:border-[#3F72AF]'>
                   Demo
                 </button>
               </a>
@@ -72,7 +77,7 @@ const Projects = () => {
             <div className='pt-8 text-center'>
               <a href='https://reciplore-alixchau.vercel.app/' target='_blank'>
                 <button className='text-[#e2dfdf] border-2 rounded px-4 py-2 mx-2 mb-3 hover:bg-[#3F72AF] duration-75 hover:border-[#3F72AF]'>
-                  Demo
+                  Website
                 </button>
               </a>
               <a href='https://github.com/Alixchau/reciplore' target='_blank'>
@@ -98,7 +103,7 @@ const Projects = () => {
             <div className='pt-8 text-center'>
               <a href='https://alixchau.github.io/...Beans/' target='_blank'>
                 <button className='text-[#e2dfdf] border-2 rounded px-4 py-2 mx-2 mb-3 hover:bg-[#3F72AF] duration-75 hover:border-[#3F72AF]'>
-                  Demo
+                  Website
                 </button>
               </a>
               <a href='https://github.com/Alixchau/...Beans' target='_blank'>
