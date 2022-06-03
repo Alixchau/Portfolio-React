@@ -82,7 +82,7 @@ const Navbar = () => {
         <ul>
           <li className='w-[40px] h-[40px] flex items-center p-1 bg-[#F9F7F7] rounded-lg hover:scale-110 duration-500 my-4'>
             <a className='flex items-center w-full text-[#3F72AF]'
-              href='https://www.linkedin.com/in/shuk-han-chau-835057132' target='_blank'>
+              href='https://www.linkedin.com/in/alix-shuk-han-chau-835057132/' target='_blank'>
               <FaLinkedin size={100} />
             </a>
           </li>
