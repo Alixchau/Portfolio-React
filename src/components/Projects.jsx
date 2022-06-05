@@ -93,7 +93,7 @@ const Projects = () => {
               <img src={Beans} alt='project picture' className='rounded object-cover' />
             </div>
             <p className='text-center text-[#F9F7F7] font-bold pb-2 md:py-4'>...Beans</p>
-            <p className='w-full pb-2 px-4 text-[#F9F7F7] text-center'>...Bean is a landing page of a coffee bean's companies. It's a fully responsive website for desktop, tablet and mobile.</p>
+            <p className='w-full pb-2 px-4 text-[#F9F7F7] text-center'>...Bean is a landing page of coffee bean's companies. It's a fully responsive website for desktop, tablet and mobile.</p>
             <p className='text-center text-[#F9F7F7] font-bold py-4'>Stack</p>
             <div className='flex justify-center'>
               <img className='w-7 mx-auto my-2' src={HTML} alt="HTML icon" />
